@@ -1,0 +1,11 @@
+# Raw and processed data (see README for dataset link)
+data/raw/
+data/processed/
+
+# Python environment and cache files
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Mac system files
+.DS_Store

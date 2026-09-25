@@ -1,0 +1,19 @@
+# Install with: pip install -r requirements.txt
+
+# Data processing
+numpy==2.0.2
+pandas==2.3.3
+pyarrow==21.0.0
+
+# Modeling
+pygam==0.10.1
+scikit-learn==1.6.1
+scipy==1.13.1
+xgboost==2.1.4
+
+# Visualization
+matplotlib==3.9.4
+
+# Notebook
+jupyter==1.1.1
+ipykernel==6.31.0

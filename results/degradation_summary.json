@@ -1,0 +1,13 @@
+{
+  "capacity_readings": 1239,
+  "outliers_removed": 39,
+  "sessions_used": 1174,
+  "vehicles": 8,
+  "as_new_capacity_ah": 40.8393055,
+  "model": "s(mileage) + f(vehicle)",
+  "lambda": 100.0,
+  "rmse_unseen_vehicles": 2.076200529767413,
+  "rmse_fleet_average": 2.7421835412865243,
+  "expected_retention_50k_km": 96.06379256933094,
+  "expected_retention_100k_km": 94.11718190414445
+}

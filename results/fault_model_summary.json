@@ -1,0 +1,48 @@
+{
+  "checkpoint_rows": 454,
+  "vehicles": 45,
+  "vehicles_with_fault_reports": 16,
+  "vehicles_skipped_too_little_data": 4,
+  "matched_mileage_auc": {
+    "mean": 0.7229357798165137,
+    "low": 0.6713302752293577,
+    "high": 0.7655963302752293
+  },
+  "matched_mileage_auc_spread_only": {
+    "mean": 0.6862385321100918,
+    "low": 0.6862385321100918,
+    "high": 0.6862385321100918
+  },
+  "pooled_auc": {
+    "mean": 0.7798835516739446,
+    "low": 0.7359204269771956,
+    "high": 0.8208791848617175
+  },
+  "pooled_auc_mileage_only": {
+    "mean": 0.6938802523047065,
+    "low": 0.6497991266375546,
+    "high": 0.7236448326055314
+  },
+  "ranking_50k_km": {
+    "vehicles": 21,
+    "with_fault_reports": 12,
+    "top_5_with_fault_reports": 5,
+    "top_10_with_fault_reports": 9
+  },
+  "feature_importance": {
+    "spread_high_soc_p90": 0.560699999332428,
+    "spread_trend": 0.46000000834465027,
+    "soc_end_median": 0.3249000012874603,
+    "temp_probe_spread_median": 0.1981000006198883,
+    "pack_temp_median": 0.19030000269412994,
+    "spread_high_soc_median": 0.17900000512599945,
+    "temp_rise_median": 0.0794999971985817,
+    "pack_temp_p95": 0.04410000145435333,
+    "depth_of_discharge_mean": 0.025599999353289604,
+    "spread_median": 0.025599999353289604,
+    "charge_current_median": 0.016200000420212746,
+    "fast_charge_share": 0.013399999588727951,
+    "start_temp_median": 0.011099999770522118,
+    "spread_max_p95": 0.0035000001080334187
+  }
+}

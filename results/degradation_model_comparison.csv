@@ -1,0 +1,14 @@
+model,vehicle_baseline,best_lambda,rmse,rmse_avg_per_vehicle
+Mileage,True,100.0,2.076200529767413,2.3458197216443093
+Mileage,False,100.0,2.105046242075356,2.3580410738747406
+Mileage + charging temp,True,100.0,2.1428717538446787,2.3612749552715853
+Mileage + charging temp,False,100.0,2.174287437760336,2.3780066149650088
+Mileage + charging temp + fast charging,True,100.0,2.1573970318642415,2.38635332545229
+Mileage + charging temp + fast charging,False,1000.0,2.159567531677852,2.4027317213023474
+Mileage + charging temp + depth of discharge,True,10.0,2.15553749865076,2.417790589361708
+Mileage + charging temp + pack temp,True,100.0,2.1689806565111205,2.454588743402173
+All stress factors,True,100.0,2.297756096311753,2.4884125190183846
+Mileage + charging temp + pack temp,False,10000.0,2.2178986851225564,2.495417970830837
+Mileage + charging temp + depth of discharge,False,10000.0,2.379882188531049,2.518319664895629
+All stress factors,False,10000.0,2.384337113144242,2.5216712740329457
+Fleet average (no model),False,,2.7421835412865243,3.2436918413116507
